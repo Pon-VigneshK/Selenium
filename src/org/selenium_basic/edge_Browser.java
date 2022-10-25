@@ -15,10 +15,10 @@ public class edge_Browser {
         driver.get("https://katalon-demo-cura.herokuapp.com");
         // to fetch a title
         String title = driver.getTitle();
-        System.out.println(title);
+        System.out.println("Title" + title);
         // to fetch a current URL
         String url = driver.getCurrentUrl();
-        System.out.println(url);
+        System.out.println("URL:" +url);
         // to close the browser
         driver.quit();
     }
